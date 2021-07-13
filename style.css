@@ -1,14 +1,14 @@
 body {
-    width: 40rem;
+    width: 40vw;
     margin: auto;
-    padding-top: 2rem;
+    padding-top: 2vw;
     background-image: url(list.jpg);
     background-position: center;
   }
   
   * {
     box-sizing: border-box;
-    border-radius: 2rem;
+    border-radius: 2vw;
   }
   
   ul {
@@ -20,10 +20,10 @@ body {
   ul li {
     cursor: pointer;
     position: relative;
-    padding: 12px 8px 12px 40px;
+    padding: 1vw 2vw 1vw 2vw;
     list-style-type: none;
     background: #eee;
-    font-size: 18px;
+    font-size: 1.5vw;
     transition: 0.2s;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -44,12 +44,12 @@ body {
     position: absolute;
     border-color: #fff;
     border-style: solid;
-    border-width: 0 2px 2px 0;
+    border-width: 0 0.5vw 0.5vw 0;
     top: 10px;
     left: 16px;
     transform: rotate(45deg);
-    height: 15px;
-    width: 7px;
+    height: 1vw;
+    width: 1vw;
   }
   .close {
     position: absolute;
@@ -89,7 +89,7 @@ body {
     color: #555;
     float: left;
     text-align: center;
-    font-size: 16px;
+    font-size: 1.3vw;
     cursor: pointer;
     transition: 0.3s;
     border-radius: 0;
